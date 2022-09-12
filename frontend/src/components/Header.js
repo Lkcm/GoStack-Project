@@ -1,11 +1,10 @@
 import React from 'react';
 
 
-export function Header({title, children}) {
+export function Header({title}) {
   return (
     <header>
     <h1>{title}</h1>
-    {children}
     </header>
   )
 }
